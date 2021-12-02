@@ -6,5 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
       - name: update README
         run: python3 make_rm.py
