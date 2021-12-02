@@ -8,7 +8,10 @@ file_check = {}
 for year in years:
     file_check[year] = {}
     for day in range(1, 26):
-        file_check[year][day] = (1 if len(os.listdir(path = f"{year}/day{str(day).rjust(2, '0')}")) > 0 else 0)
+        try:
+            file_check[year][day] = (1 if len(os.listdir(path = f"{year}/day{str(day).rjust(2, '0')}")) > 0 else 0)
+        except:
+            file_check[year][day] = 0
     
 # print(file_check)
 
