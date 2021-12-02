@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: update README
-      - run: run make_rm.py
+        run: run make_rm.py
