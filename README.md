@@ -59,39 +59,39 @@ My AoC solutions, written in Python.
             <td>
                 <table>
                 <tr>
-                    <td><a href="">1</td>
-                    <td><a href="">2</td>
-                    <td><a href="">3</td>
-                    <td><a href="">4</td>
-                    <td><a href="">5</td>
+                    <td><a href="2020/day01">1</td>
+                    <td><a href="2020/day02">2</td>
+                    <td><a href="2020/day03">3</td>
+                    <td><a href="2020/day04">4</td>
+                    <td><a href="2020/day05">5</td>
                 </tr>
                 <tr>
-                    <td><a href="">6</td>
-                    <td><a href="">7</td>
-                    <td><a href="">8</td>
-                    <td><a href="">9</td>
-                    <td><a href="">10</td>
+                    <td><a href="2020/day06">6</td>
+                    <td><a href="2020/day07">7</td>
+                    <td><a href="2020/day08">8</td>
+                    <td>9</td>
+                    <td>10</td>
                 </tr>
                 <tr>
-                    <td><a href="">11</td>
-                    <td><a href="">12</td>
-                    <td><a href="">13</td>
-                    <td><a href="">14</td>
-                    <td><a href="">15</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
                 </tr>
                 <tr>
-                    <td><a href="">16</td>
-                    <td><a href="">17</td>
-                    <td><a href="">18</td>
-                    <td><a href="">19</td>
-                    <td><a href="">20</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
                 </tr>
                 <tr>
-                    <td><a href="">21</td>
-                    <td><a href="">22</td>
-                    <td><a href="">23</td>
-                    <td><a href="">24</td>
-                    <td><a href="">25</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
                 </tr>
                 </table>
             </td>
@@ -105,39 +105,39 @@ My AoC solutions, written in Python.
             <td>
                 <table>
                 <tr>
-                    <td><a href="">1</td>
-                    <td><a href="">2</td>
-                    <td><a href="">3</td>
-                    <td><a href="">4</td>
-                    <td><a href="">5</td>
+                    <td><a href="2019/day01">1</td>
+                    <td><a href="2019/day02">2</td>
+                    <td><a href="2019/day03">3</td>
+                    <td><a href="2019/day04">4</td>
+                    <td><a href="2019/day05">5</td>
                 </tr>
                 <tr>
-                    <td><a href="">6</td>
-                    <td><a href="">7</td>
-                    <td><a href="">8</td>
-                    <td><a href="">9</td>
-                    <td><a href="">10</td>
+                    <td><a href="2019/day06">6</td>
+                    <td><a href="2019/day07">7</td>
+                    <td><a href="2019/day08">8</td>
+                    <td><a href="2019/day09">9</td>
+                    <td><a href="2019/day10">10</td>
                 </tr>
                 <tr>
-                    <td><a href="">11</td>
-                    <td><a href="">12</td>
-                    <td><a href="">13</td>
-                    <td><a href="">14</td>
-                    <td><a href="">15</td>
+                    <td><a href="2019/day11">11</td>
+                    <td><a href="2019/day12">12</td>
+                    <td><a href="2019/day13">13</td>
+                    <td>14</td>
+                    <td>15</td>
                 </tr>
                 <tr>
-                    <td><a href="">16</td>
-                    <td><a href="">17</td>
-                    <td><a href="">18</td>
-                    <td><a href="">19</td>
-                    <td><a href="">20</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
                 </tr>
                 <tr>
-                    <td><a href="">21</td>
-                    <td><a href="">22</td>
-                    <td><a href="">23</td>
-                    <td><a href="">24</td>
-                    <td><a href="">25</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
                 </tr>
                 </table>
             </td>
