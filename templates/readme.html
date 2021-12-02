@@ -1,0 +1,33 @@
+# Advent of Code 2021
+My AoC solutions, written in Python.
+
+<center>
+<!-- {% set years = [2021, 2020, 2019] %} -->
+<table style="display: inline-block;">
+    <tr>
+        <th>Year</th>
+        <th>Days</th>
+    </tr>
+    {% for year in file_check.keys() -%}
+    <tr>
+        <th>{{year}}</th>
+        <td>
+            <table>
+            {% for day in range(1, 26, 5) -%}
+            <tr>
+                {% for adder in range(0, 5) -%}
+                    {% if file_check[year][day+adder] == 1 -%}
+                        {% set tag = "<a href=" ~ year ~ "/" ~ dirnames[day+adder-1] ~ ">" -%}
+                        <td>{{tag}}{{day+adder}}</td>
+                    {% else -%}
+                        <td>{{day+adder}}</td>
+                    {% endif -%}
+                {% endfor -%}
+            </tr>
+            {% endfor -%}
+            </table>
+        </td>
+    </tr>
+    {% endfor -%}
+</table>
+</center>
