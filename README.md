@@ -13,23 +13,23 @@ My AoC solutions, written in Python.
         <td>
             <table>
             <tr>
-                <td><a href=2019/day02>1</td>
-                    <td><a href=2019/day03>2</td>
-                    <td><a href=2019/day04>3</td>
-                    <td><a href=2019/day05>4</td>
-                    <td><a href=2019/day06>5</td>
+                <td><a href=2019/day01>1</td>
+                    <td><a href=2019/day02>2</td>
+                    <td><a href=2019/day03>3</td>
+                    <td><a href=2019/day04>4</td>
+                    <td><a href=2019/day05>5</td>
                     </tr>
             <tr>
-                <td><a href=2019/day07>6</td>
-                    <td><a href=2019/day08>7</td>
-                    <td><a href=2019/day09>8</td>
-                    <td><a href=2019/day10>9</td>
-                    <td><a href=2019/day11>10</td>
+                <td><a href=2019/day06>6</td>
+                    <td><a href=2019/day07>7</td>
+                    <td><a href=2019/day08>8</td>
+                    <td><a href=2019/day09>9</td>
+                    <td><a href=2019/day10>10</td>
                     </tr>
             <tr>
-                <td><a href=2019/day12>11</td>
-                    <td><a href=2019/day13>12</td>
-                    <td><a href=2019/day14>13</td>
+                <td><a href=2019/day11>11</td>
+                    <td><a href=2019/day12>12</td>
+                    <td><a href=2019/day13>13</td>
                     <td>14</td>
                     <td>15</td>
                     </tr>
@@ -55,16 +55,16 @@ My AoC solutions, written in Python.
         <td>
             <table>
             <tr>
-                <td><a href=2020/day02>1</td>
-                    <td><a href=2020/day03>2</td>
-                    <td><a href=2020/day04>3</td>
-                    <td><a href=2020/day05>4</td>
-                    <td><a href=2020/day06>5</td>
+                <td><a href=2020/day01>1</td>
+                    <td><a href=2020/day02>2</td>
+                    <td><a href=2020/day03>3</td>
+                    <td><a href=2020/day04>4</td>
+                    <td><a href=2020/day05>5</td>
                     </tr>
             <tr>
-                <td><a href=2020/day07>6</td>
-                    <td><a href=2020/day08>7</td>
-                    <td><a href=2020/day09>8</td>
+                <td><a href=2020/day06>6</td>
+                    <td><a href=2020/day07>7</td>
+                    <td><a href=2020/day08>8</td>
                     <td>9</td>
                     <td>10</td>
                     </tr>
@@ -97,8 +97,8 @@ My AoC solutions, written in Python.
         <td>
             <table>
             <tr>
-                <td><a href=2021/day02>1</td>
-                    <td><a href=2021/day03>2</td>
+                <td><a href=2021/day01>1</td>
+                    <td><a href=2021/day02>2</td>
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
