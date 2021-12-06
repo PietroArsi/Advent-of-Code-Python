@@ -1,11 +1,8 @@
-from math import floor
+with open("i6.txt") as f: data = [int(x) for x in f.read().strip().split(",")]
 
-with open("i6.txt") as f:
-    data = [int(x) for x in f.read().strip().split(",")]
+fishes = {val:data.count(val) for val in range(9)}
 
-fishes = dict()
-for x in range(9):
-    fishes[x] = len([i for i in data if i == x])
+print(fishes)
 
 simulation_days = 256
 for day in range(simulation_days):
@@ -16,8 +13,4 @@ for day in range(simulation_days):
     newfishes[8] = int(fishes[0])
     fishes = newfishes
 
-count=0
-for x in fishes.keys():
-    count += fishes[x]
-
-print(f"Result: {count}")
+print(f"Result: {sum(i for i in fishes.values())}")
