@@ -1,0 +1,42 @@
+{
+    "0" : {
+        "letters" : "abcefg",
+        "length" : 6
+    },
+    "1" : {
+        "letters" : "cf",
+        "length" : 2
+    },
+    "2" : {
+        "letters" : "acdeg",
+        "length" : 5
+    },
+    "3" : {
+        "letters" : "acdfg",
+        "length" : 5
+    },
+    "4" : {
+        "letters" : "bcdf",
+        "length" : 4
+    },
+    "5" : {
+        "letters" : "abdfg",
+        "length" : 5
+    },
+    "6" : {
+        "letters" : "abdefg",
+        "length" : 6
+    },
+    "7" : {
+        "letters" : "acf",
+        "length" : 3
+    },
+    "8" : {
+        "letters" : "abcdefg",
+        "length" : 7
+    },
+    "9" : {
+        "letters" : "abcdfg",
+        "length" : 6
+    }
+}

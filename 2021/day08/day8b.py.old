@@ -1,0 +1,64 @@
+import json
+
+with open("test8a.txt") as f: data = [[y.strip().split() for y in x.strip().split("|")] for x in f.readlines()]
+with open("mapping.json") as f: mapping = json.load(f)
+
+def len2digit(l):
+    for digit in mapping.keys():
+        if l == mapping[digit]["length"]: return int(digit)
+
+def reset(w):
+    for x in w.keys():
+        w[x] = set()
+
+def decode(w, wires):
+    for k in w.keys():
+        if len(w[k]) == 0:
+            w[k] = set(wires)
+    
+    result = []
+    for up in w["up"]:
+        for up_left in w["up left"]:
+            for up_right in w["up right"]:
+                for center in w["center"]:
+                    for down_left in w["down left"]:
+                        for down_right in w["down right"]:
+                            for down in w["down"]:
+                                if set([up, up_left, up_right, center, down_left, down_right, down]) == set(wires):
+                                    result.append({"up": up, "up left": up_left, "up right": up_right, "center": center, "down left": down_left, "down right": down_right, "down": down})
+    
+    return result
+
+wiring = {"up" : set(), "up left": set(), "up right": set(), "center": set(), "down left": set(), "down right": set(), "down": set()}
+wires = ["a", "b", "c", "d", "e", "f", "g"]
+
+count=0
+for x in data:
+    reset(wiring)
+    for y in x[0] + x[1]:
+        digit = len2digit(len(y))
+        letters = list(y)
+        if digit == 1:
+            for l in letters:
+                wiring["up right"].add(l)
+                wiring["down right"].add(l)
+        elif digit == 4:
+            for l in letters:
+                wiring["up left"].add(l)
+                wiring["up right"].add(l)
+                wiring["center"].add(l)
+                wiring["down right"].add(l)
+        elif digit == 7:
+            for l in letters:
+                wiring["up"].add(l)
+                wiring["up right"].add(l)
+                wiring["down right"].add(l)
+        elif digit == 8:
+            ...
+    
+    print(wiring)
+    code = decode(wiring, wires)
+    print(len(code))
+    break
+
+# print(f"Result: {count}")
