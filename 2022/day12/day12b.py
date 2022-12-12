@@ -28,36 +28,6 @@ class Graph:
             neighbours.append((u[0],u[1]-1))
         return neighbours
 
-def dijkstra(g, start, finish):
-    dist = {}
-    precedente = {}
-
-    for x in g.vertices:
-        dist[x] = math.inf
-        precedente[x] = None
-
-    dist[start] = 0
-    q = list(g.vertices)
-
-    while len(q)>0:
-        u = min(q, key= lambda x:dist[x])
-        q.remove(u)
-
-        if u == finish:
-            return dist[u]
-
-        if dist[u] == math.inf:
-            break
-
-        neighbours = g.get_neighbours(u)
-
-        for v in neighbours:
-            alt = dist[u] + 1
-            if alt < dist[v]:
-                dist[v] = alt
-                precedente[v] = u
-                q.append(v)
-
 def dijkstra2(g, start, finishes):
     dist = {}
     precedente = {}
