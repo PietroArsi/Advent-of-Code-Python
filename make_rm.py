@@ -1,7 +1,7 @@
 import os
 from jinja2 import Template
 
-years=[2015, 2016 ,2017, 2018, 2019, 2020, 2021, 2022]
+years=[2015, 2016 ,2017, 2018, 2019, 2020, 2021, 2022, 2023]
 dirnames = [f"day{day:02}" for day in range(1, 26)]
 
 file_check = {}
